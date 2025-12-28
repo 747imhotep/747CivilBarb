@@ -13,32 +13,33 @@ body {
   background-size: cover;
   margin-bottom: 80px;
   width: 100%;
-  height: auto;
+  min-height: 60vh;
 }
 
 h1 {
   color: #dfdfdf;
-  font-size: 36px;
-  font-weight: normal;
+  font-size: 61px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
 h2 {
-  color: #555;
-  font-size: 24px;
+  color: #444;
+  font-size: 34px;
   font-weight: normal;
   margin-bottom: 20px;
 }
 
 .subtitle {
-  color: #555;
+  color: #eee2e2;
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 40px;
 }
 
 .quote {
-  color: #777;
+  color: #555;
+  font-size: 24px;
   font-style: italic;
   margin-top: 20px;
 }
@@ -48,8 +49,8 @@ p {
   font-size: 18px;
 }
 em {
-  color: #999;
-  font-size: 16px;
+  color: #fadfdf;
+  font-size: 22px;
 }
 
 .cta{
@@ -57,13 +58,13 @@ em {
 }
 
 .cta a{
-    color: #222;
+    color: #0f0e0e;
     margin-right: 20px;
     text-decoration: underline;
 }
 
 .cta a.secondary{
-    color: #666;
+    color: #2c2727;
 }
 
 a:hover{

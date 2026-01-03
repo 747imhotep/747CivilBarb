@@ -43,6 +43,12 @@ body {
   margin-bottom: 20px;
 }
 
+#hero-image .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #hero-image .manifesto {
   font-weight: 300;
   font-size: 20px;
@@ -57,12 +63,45 @@ body {
   font-style: italic;
   max-width: 800px;
   margin-top: 20px;
+  background: rgba(50, 0, 50, 0.6);
 }
 
 #hero-image .quote em {
   font-size: 17px;
   color: #e4bfbf;
 }
+
+#hero-image .manifesto,
+#hero-image .quote {
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent dark background */
+  padding: 25px 30px;
+  border-radius: 12px;          /* rounded corners for card effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5); /* soft shadow for depth */
+  display: inline-block;         /* shrink to fit content */
+  max-width: 700px;              /* constrain width */
+  margin: 15px auto 25px auto;   /* centered with spacing */
+}
+
+#hero-image .quote {
+  background: rgba(50, 0, 50, 0.6); /* slightly tinted for distinction */
+}
+
+#hero-image .manifesto em,
+#hero-image .quote em {
+  color: #ffe0e0;
+}
+
+#hero-image .manifesto,
+#hero-image .quote {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#hero-image .manifesto:hover,
+#hero-image .quote:hover {
+  transform: translateY(-8px); /* slightly lifts the box */
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6), 0 0 15px rgba(255, 200, 200, 0.3); /* subtle glow */
+}
+
 
 /* ===== Library Header ===== */
 .library-header {

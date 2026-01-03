@@ -1,10 +1,19 @@
+#hero-image .manifesto,
 #hero-image .quote {
-    color: #eeccf0;
-    font-size: 17px;
-    font-style: italic;
-    margin-top: 20px;
-    max-width: 800px;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent dark background */
+  padding: 25px 30px;
+  border-radius: 12px;          /* rounded corners for card effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5); /* soft shadow for depth */
+  display: inline-block;         /* shrink to fit content */
+  max-width: 700px;              /* constrain width */
+  margin: 15px auto 25px auto;   /* centered with spacing */
 }
+
+#hero-image .quote {
+  background: rgba(50, 0, 50, 0.6); /* slightly tinted for distinction */
+}
+
+#hero-image .manifesto em,
 #hero-image .quote em {
-    font-size: 17px;
+  color: #ffe0e0; /* stand out against dark background */
 }

@@ -4,6 +4,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(/my-worker/hero/hero_premium02.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
   min-height: 60vh;
   margin: 60px auto;
@@ -30,7 +33,9 @@
 
 /* ===== Success Page Hero ===== */
 .back-button {
-  display: inline-block;        /* Better than block for buttons */
+  display: inline-flex;        /* Better than block for buttons */
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
   background: linear-gradient(135deg, #d30b83 0%, #a00862 100%);
   color: #fff !important;       /* Force white text */
   text-decoration: none;

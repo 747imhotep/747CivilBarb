@@ -1,17 +1,22 @@
 .back-button {
-  display: inline-block;
-  background-color: #d30b83;
-  color: #fff;
+  display: inline-flex;      /* change from inline-block */
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
+
+  background: linear-gradient(135deg, #d30b83 0%, #a00862 100%);
+  color: #fff !important;
   text-decoration: none;
-  padding: 14px 35px;
-  border-radius: 10px;
-  font-weight: bold;
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-weight: 600;
   font-size: 18px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  text-align: center; /* ensure text inside button is centered */
-}
-.back-button:hover {
-  background-color: #a00862;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(211, 11, 131, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 54px;
+  line-height: 1.4;
 }

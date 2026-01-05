@@ -1,0 +1,73 @@
+5. Contact
+Purpose
+
+Simple text:
+
+This project welcomes questions, reflections, and academic or pedagogical use.
+
+Contact form (Formspree)
+
+Perfect — we can design a **dedicated interactive page** that combines a contact form with the ability for visitors to **quote parts of PDFs and submit comments or questions**.
+
+Here’s a clear structure:
+
+---
+
+## **Page: Contribute / Ask a Question / Quote an Article**
+
+### **Title**
+
+**Interagir avec nos articles**
+
+### **Intro text**
+
+> Ce projet accueille vos questions, réflexions et retours autour des articles publiés.
+> Vous pouvez citer un passage précis d’un PDF, proposer un commentaire ou poser une question.
+> Nous valorisons les échanges constructifs et les discussions pédagogiques ou académiques.
+> Les commentaires negatifs sont toujours plus facile a faire. Cela repose le cortex frontal.
+
+---
+
+### **Formulaire principal** (via Formspree)
+
+**Champs suggérés :**
+
+1. **Nom / Pseudonyme** (optionnel)
+2. **Email** (obligatoire pour réponse)
+3. **Article concerné** (menu déroulant ou champ texte)
+4. **Citation du PDF** (champ texte multi-lignes)
+5. **Commentaire / Question** (champ texte multi-lignes)
+6. **Type de contribution** (radio)
+
+   * Question
+   * Commentaire / Réflexion
+   * Proposition de thème
+   * Usage pédagogique / enseignement
+
+**Bouton d’envoi :**
+
+> Envoyer ma contribution
+
+**Message après envoi:**
+
+>Merci pour votre contribution. Nous la lirons attentivement et répondrons si nécessaire.
+
+---
+
+### **Conseils UX / ton**
+
+* Encourage la précision pour citations et références (numéro de page, titre du PDF).
+* Message de confirmation après envoi :
+
+  > Merci pour votre contribution. Nous la lirons attentivement et répondrons si nécessaire.
+
+---
+
+### **Éventuelles fonctionnalités avancées (plus tard)**
+
+* Affichage des **citations et commentaires publiés** sur une page séparée (modéré).
+* Possibilité de **téléverser un extrait PDF annoté** (fichier joint).
+* Catégorisation par thème ou PDF pour filtrer les retours.
+
+---
+

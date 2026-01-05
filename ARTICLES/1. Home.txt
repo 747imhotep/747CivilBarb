@@ -1,0 +1,36 @@
+1. Home
+
+
+a) Title: Civilisations ou Barbarie
+
+
+b) Subtitle / manifesto line:
+	Enquêtes et articles au format PDF, consacrés à l’exploration de zones peu éclairées, 
+	à l’examen attentif des angles morts et à l’analyse de territoires sombres ou tabous, 
+	ouverts à la discussion.
+
+	En paléontologie, l’absence de preuve ne constitue pas la preuve de l’absence.
+
+
+d) Short “Why PDF?” paragraph (already defined)
+	Nous avons choisi le format PDF de manière délibérée.
+
+	Dans un monde façonné par la vitesse et le défilement permanent, certaines écritures appellent le ralentissement. 
+	Le PDF invite à un autre rapport au texte — un rapport qui valorise l’attention, la réflexion et la continuité.
+
+	Nos articles sont conçus pour être lus calmement, imprimés et conservés, annotés à la main, partagés dans 
+	des contextes d’enseignement ou de discussion, puis repris au fil du temps.
+
+	Ce ne sont pas des articles pour l’instant.
+	Ce sont des textes faits pour durer.
+
+
+e) Two discreet CTAs:
+	* Articles recents
+	* Essaie avec un article gratuit
+	* Explorer la librairie
+
+
+f)Tone
+	Editorial, sober, human → ton texte doit rester réfléchi, sérieux, mais accessible.
+	No noise. No urgency → pas de phrases commerciales pressantes, pas de marketing agressif.

@@ -1,0 +1,108 @@
+7. Sommaire (very good idea)
+
+This is an excellent, distinctive page.
+
+Purpose
+A table of contents for the entire project, not just navigation.
+
+Content
+Chronological or thematic listing of all texts
+
+Each entry:
+	Title
+	Short description
+	Status (published / upcoming)
+	Page count
+
+
+Example:
+	The Sommaire presents the complete structure of the project — published texts and those in preparation.
+	This reinforces the idea of a living corpus, not a blog.
+
+
+
+Navigation menu (suggested order)
+	Home
+	Sommaire
+	Library
+	Premium
+	About
+	Contact
+
+
+------------------------
+
+
+Parfait ! Alors on peut se concentrer sur la **page Sommaire**, qui est vraiment distinctive et centrale pour ton projet.
+
+Voici une proposition complète pour sa structure et son contenu, dans le ton **enquêteur / réfléchi** que tu souhaites :
+
+---
+
+# **Sommaire – Civilisations ou Barbarie**
+
+### **Objectif**
+
+	Le Sommaire n’est pas seulement un menu. 
+	C’est **une cartographie de nos enquêtes**, 
+	un inventaire des textes publiés et en préparation, 
+	un guide pour suivre la progression des recherches.
+
+	> *Le Sommaire présente la structure complète du projet — textes publiés et travaux en cours.*
+
+---
+
+### **Structure recommandée**
+
+**1. Organisation par thèmes ou périodes**
+	* Chaque thème peut regrouper plusieurs articles / enquêtes.
+	* Exemple : Histoire, Sociologie, Philosophie, Sciences, Zones Taboues.
+
+**2. Pour chaque article**
+	* **Titre**
+	* **Auteur** (ou collectif)
+	* **Format** : PDF
+	* **Longueur** : nombre de pages
+	* **Statut** : publié / en cours / à paraître
+	* **Résumé** : 2-3 lignes pour situer le contenu
+	* **Mots-clés / tags** (facultatif, pour filtrer plus tard)
+
+**3. Navigation rapide**
+	* Liens directs vers les PDF gratuits
+	* Indication des textes premium avec lien vers la page Premium
+
+---
+
+### **Exemple de présentation**
+
+#### **Thème : Sociétés oubliées**
+
+* **Titre : Les cités perdues du Sahara**
+  Auteur : J. Dupont
+  PDF – 25 pages – Gratuit
+  Résumé : Enquête sur les cités anciennes et leurs traces dans le désert.
+* **Titre : Barrières culturelles et zones taboues**
+  Auteur : L. Martin
+  PDF – 30 pages – Premium
+  Résumé : Analyse des sociétés qui se tiennent à l’écart des récits historiques dominants.
+
+---
+
+### **Ton et style**
+
+* Clair, méthodique, rigoureux
+* Pas de texte commercial, juste une **cartographie des enquêtes**
+* Peut inclure des symboles ou couleurs discrètes pour **statut et type d’article**
+
+---
+
+### **Fonctionnalités possibles (phase 2)**
+
+* Filtrage par thème, auteur, statut ou mot-clé
+* Recherche dans les titres / résumés
+* Système de mise à jour automatique pour les nouveaux textes
+* Notes ou commentaires publics pour chaque article (modérés)
+
+---
+
+

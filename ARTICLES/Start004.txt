@@ -1,0 +1,228 @@
+
+Let’s **design the core pages calmly**, starting with **purpose, content, and tone** for each page. No rushing, no selling yet.
+
+---
+
+# Site structure for
+
+## **Civilisations ou Barbarie**
+
+> *Articles meant to be kept, not scrolled.*
+
+---
+
+## 1. **Home**
+
+### Purpose
+
+To **set the atmosphere** and explain *why this site exists* in one quiet breath.
+
+Ce site ne délivre pas de certitudes. Il expose un travail de recherche en cours, avec ses hésitations, ses erreurs et ses détours.
+Nous ne cherchons pas à rassurer, mais à interroger.
+Civilisations ou Barbarie s’adresse à celles et ceux qui préfèrent la pensée en mouvement aux réponses confortables.
+
+### Content
+
+* Title: **Civilisations ou Barbarie**
+
+* Subtitle / manifesto line:
+
+  > Essays and articles in PDF format, written for calm reading, printing, teaching, and discussion.
+
+* Short “Why PDF?” paragraph (already defined)
+
+* Two discreet CTAs:
+
+  * **Begin with a free article**
+  * **Explore the library**
+
+### Tone
+
+Editorial, sober, human.
+No noise. No urgency.
+
+---
+
+## 2. **Library / Articles**
+
+### Purpose
+
+To act as a **catalogue / reading room**.
+
+### Structure
+
+* List of articles (cards or simple list)
+
+  * Title
+  * Short abstract (2–3 lines)
+  * Format: PDF
+  * Length (pages)
+  * Free / Premium label
+
+### Filters (later)
+
+* Theme
+* Period
+* Author
+* Language
+
+### Tone
+
+Neutral, academic-library style.
+
+Example description:
+
+> Each text is available as a printable PDF, designed for annotation and long-term use.
+
+---
+
+## 3. **Premium**
+
+### Purpose
+
+To explain **why some texts go deeper** and require support — without commercial pressure.
+
+### Content
+
+* Short explanation:
+
+  > Premium texts allow us to publish longer, more researched articles, designed as teaching and reference material.
+
+* What premium includes:
+
+  * Longer PDFs
+  * Structured for teaching
+  * Printable & revisitable
+  * Updated editions
+
+* Gentle CTA:
+
+  * **Access premium texts**
+  * (Donation can appear later, discreetly)
+
+### Tone
+
+Justification, not persuasion.
+
+---
+
+## 4. **About**
+
+### Purpose
+
+To explain the **intellectual and ethical position** of the project.
+
+### Core themes
+
+* Why the title *Civilisations ou Barbarie*
+* Why slow reading matters
+* Why PDF
+* Why teaching and discussion
+
+Example opening line:
+
+> *Civilisations ou Barbarie* is a space for reflection. It was created from the belief that thought requires time, and that some texts must be preserved, not consumed.
+
+This page can feel like a **short manifesto**.
+
+---
+
+## 5. **Contact**
+
+### Purpose
+
+Human presence and openness.
+
+### Content
+
+* Simple text:
+
+  > This project welcomes questions, reflections, and academic or pedagogical use.
+
+* Contact form (Formspree)
+
+* Optional:
+
+  * Proposal of themes
+  * Teaching or group usage inquiries
+
+### Tone
+
+Open, calm, respectful.
+
+---
+
+## 6. **Privacy / Terms**
+
+### Purpose
+
+Trust and transparency.
+
+### Content
+
+* Minimal data usage explanation
+* Email usage (Sender.net)
+* Cookies (Cloudflare)
+* No tracking-heavy language
+
+Tone: Clear, non-threatening.
+
+---
+
+## 7. **Sommaire** (very good idea)
+
+This is an **excellent, distinctive page**.
+
+### Purpose
+
+A **table of contents for the entire project**, not just navigation.
+
+### Content
+
+* Chronological or thematic listing of all texts
+* Each entry:
+
+  * Title
+  * Short description
+  * Status (published / upcoming)
+  * Page count
+
+Example:
+
+> The Sommaire presents the complete structure of the project — published texts and those in preparation.
+
+This reinforces the idea of a **living corpus**, not a blog.
+
+---
+
+## Navigation menu (suggested order)
+
+* Home
+* Sommaire
+* Library
+* Premium
+* About
+* Contact
+
+(Privacy in footer)
+
+---
+
+## Overall tone summary
+
+* **Intellectual, not academic**
+* **Reflective, not nostalgic**
+* **Accessible, not simplified**
+* **Quiet confidence**
+
+---
+
+Next calm steps (your choice):
+
+* Write the **Home page text together**
+* Write the **About page manifesto**
+* Define the **first 5 article titles**
+* Decide the **visual identity** (fonts, colors)
+
+Just tell me which page you want to work on next.
+

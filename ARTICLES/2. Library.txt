@@ -1,0 +1,36 @@
+2. Library / Articles
+Purpose
+
+	To act as a catalogue / reading room.
+
+Structure
+
+	List of articles (cards or simple list)
+
+		Title
+
+		Short abstract (2–3 lines)
+
+		Format: PDF
+
+		Length (pages)
+
+		Free / Premium label
+
+Filters (later)
+
+	Theme
+
+	Period
+
+	Author
+
+	Language
+
+Tone
+
+	Neutral, academic-library style.
+
+Example description:
+
+Each text is available as a printable PDF, designed for annotation and long-term use.

@@ -1,0 +1,44 @@
+/* ===== Success Page Hero ===== */
+#hero-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 60vh;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+#hero-success h1 {
+  color: #2b0101;
+  font-size: 52px;
+  margin-bottom: 25px;
+}
+
+#hero-success .manifesto {
+  font-size: 20px;
+  max-width: 700px;
+  background: rgba(255, 235, 235, 0.7);
+  padding: 25px 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-block;
+  background-color: #d30b83;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #a00862;
+  transform: translateY(-2px);
+}

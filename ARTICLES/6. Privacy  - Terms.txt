@@ -1,0 +1,90 @@
+6. Privacy / Terms
+Purpose
+
+Trust and transparency.
+
+Content
+
+Minimal data usage explanation
+
+----------------
+
+
+
+## **Disclaimer / Responsabilité**
+
+> Notre démarche de recherche et d’enquête n’incite en aucun cas à l’insulte, à la diffamation ou à la calomnie.
+> Nous ne sommes pas responsables du déroulement des faits historiques ni de leur interprétation ou falsification éventuelle.
+
+---
+
+### **Exemple d’intégration dans Privacy / Terms**
+
+1. **Données et confidentialité**
+
+   * Minimal usage of personal data
+   * Emails used only to respond to submissions (Sender.net)
+   * Cookies managed via Cloudflare
+   * No tracking-heavy scripts
+
+2. **Responsabilité et contenu**
+
+   > Les contenus publiés sur ce site relèvent d’une recherche historique et intellectuelle.
+   > Ils ne doivent pas être utilisés pour nuire, insulter ou calomnier.
+   > Nous ne pouvons être tenus responsables des interprétations ou de la falsification éventuelle des faits historiques.
+
+----------------
+
+Parfait ! Voici une **version complète et prête à mettre en ligne** de la page **Privacy / Terms** pour *Civilisations ou Barbarie*, intégrant à la fois la confidentialité et le disclaimer sur la responsabilité. Le ton reste clair, sérieux et respectueux.
+
+---
+
+# **Confidentialité et Conditions d’Utilisation**
+
+### **1. Collecte et utilisation des données**
+
+* Les informations que vous nous fournissez (email, nom, contributions) servent uniquement à répondre à vos questions ou commentaires.
+* Nous utilisons **Formspree** pour gérer les soumissions et **Sender.net** pour la communication par email.
+* Les cookies sont gérés via **Cloudflare** pour le bon fonctionnement du site.
+* Aucune donnée n’est vendue ou partagée à des tiers à des fins commerciales.
+
+---
+
+### **2. Responsabilité et contenu**
+
+> Les contenus publiés sur ce site relèvent d’une démarche de recherche, d’enquête et d’analyse historique et intellectuelle.
+> Ils ne doivent pas être utilisés pour nuire, insulter ou calomnier autrui.
+> Nous ne pouvons être tenus responsables des interprétations personnelles, ni du déroulement ou de la falsification éventuelle des faits historiques.
+
+---
+
+### **3. Soumissions et contributions**
+
+* Toutes les contributions (questions, commentaires, citations de PDF) sont modérées.
+* Les citations doivent être précises et respectueuses.
+* En participant, vous acceptez que vos commentaires soient lus, traités et éventuellement publiés de manière anonymisée.
+
+---
+
+### **4. Utilisation des PDFs**
+
+* Les PDFs sont destinés à un usage personnel, pédagogique ou de discussion.
+* Vous êtes libres de les imprimer, annoter et partager dans un cadre éducatif ou intellectuel, sans en faire un usage commercial.
+
+---
+
+### **5. Modifications de la politique**
+
+> Cette page peut être mise à jour pour refléter l’évolution du projet ou des réglementations. Les utilisateurs sont invités à la consulter régulièrement.
+
+---
+
+Si tu veux, la prochaine étape pourrait être :
+
+* **créer le modèle du premier PDF**, avec couverture, introduction et citation-manifeste,
+* ou finaliser le **layout complet de la page “Interagir avec nos articles”**, avec disclaimer inclus.
+
+Veux‑tu que l’on fasse l’un de ces deux maintenant ?
+
+
+

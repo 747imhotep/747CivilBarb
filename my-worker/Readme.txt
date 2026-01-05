@@ -8,3 +8,12 @@ my-worker/
 
 
 
+
+my-worker/
+│
+├─ subscribe/
+│   ├─ csssubscribe/subscribe.css
+│   └─ subscribe.html
+└─ library/
+    └─ library.html
+

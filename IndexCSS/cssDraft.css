@@ -1,0 +1,17 @@
+.back-button {
+  display: inline-block;
+  background-color: #d30b83;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center; /* ensure text inside button is centered */
+}
+.back-button:hover {
+  background-color: #a00862;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}

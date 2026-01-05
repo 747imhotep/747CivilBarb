@@ -8,37 +8,94 @@
   min-height: 60vh;
   margin: 60px auto;
   padding: 20px;
+  gap: 20px;
 }
 
 #hero-success h1 {
   color: #2b0101;
-  font-size: 52px;
+  font-size: clamp(32px, 5vw, 52px);
   margin-bottom: 25px;
+  line-height: 1.2;
 }
 
 #hero-success .manifesto {
-  font-size: 20px;
+  font-size: clamp(16px, 2.5vw, 20px);
   max-width: 700px;
   background: rgba(255, 235, 235, 0.7);
   padding: 25px 30px;
   border-radius: 12px;
   margin-bottom: 30px;
+  line-height: 1.6;
 }
 
-/* Back Button */
+/* ===== Success Page Hero ===== */
 .back-button {
-  display: inline-block;
-  background-color: #d30b83;
-  color: #fff;
+  display: inline-block;        /* Better than block for buttons */
+  background: linear-gradient(135deg, #d30b83 0%, #a00862 100%);
+  color: #fff !important;       /* Force white text */
   text-decoration: none;
-  padding: 14px 35px;
-  border-radius: 10px;
-  font-weight: bold;
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-weight: 600;
   font-size: 18px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(211, 11, 131, 0.3);
+  border: none;
+  cursor: pointer;              /* Clear pointer cursor */
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 54px;             /* Touch target minimum */
+  line-height: 1.4;
 }
 
-.back-button:hover {
-  background-color: #a00862;
-  transform: translateY(-2px);
+.back-button:hover,
+.back-button:focus {
+  background: linear-gradient(135deg, #a00862 0%, #8a0760 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(211, 11, 131, 0.4);
+  outline: none;
+}
+
+.back-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(211, 11, 131, 0.3);
+}
+
+/* Focus for keyboard navigation */
+.back-button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #777;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  #hero-success {
+    margin: 40px auto;
+    padding: 15px;
+    min-height: 50vh;
+  }
+  
+  .back-button {
+    padding: 14px 30px;
+    font-size: 16px;
+    min-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .back-button {
+    padding: 12px 25px;
+    font-size: 15px;
+  }
 }

@@ -19,6 +19,11 @@
   </a>
 </section>
 
+<div id="download-link-container">
+  <p>Loading your download link…</p>
+</div>
+
+
 
 </main>
 
@@ -27,5 +32,26 @@
   <p>&copy; 2026 Civilisation ou Barbarie. Tous droits réservés.</p>
 </footer>
 
+
+<script>
+  async function getDownloadLink() {
+    try {
+      const response = await fetch("/test-download"); // calls our Node server
+      const data = await response.json();
+
+      const container = document.getElementById("download-link-container");
+
+      // Replace placeholder with actual link
+      container.innerHTML = `<a href="${data.url}" target="_blank">Download your PDF</a>`;
+    } catch (err) {
+      console.error(err);
+      document.getElementById("download-link-container").innerText =
+        "Failed to load your download link. Please try again.";
+    }
+  }
+
+  // Run on page load
+  window.addEventListener("DOMContentLoaded", getDownloadLink);
+</script>
 </body>
 </html>

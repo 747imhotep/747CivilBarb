@@ -406,6 +406,23 @@ Email (Sender.net) ← same link
 
 Step 1 (ONLY this step): Prepare Cloudflare R2
 2️⃣ Step 2 — Connect server.js to Cloudflare R2
+
+Perfect! 🎉 That’s exactly what we wanted — your signed R2 URL is working.
+
+X-Amz-Expires=86400 → that’s 24 hours (exactly what you planned)
+
+Anyone with that link can download the PDF for 24h
+
+After that, it will expire automatically
+
+This means:
+
+.env is read correctly ✅
+
+Node can connect to R2 ✅
+
+Signed URLs are generated ✅
+
 3️⃣ 
 4️⃣ 
 5️⃣ 

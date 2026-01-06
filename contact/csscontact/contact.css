@@ -3,11 +3,11 @@
 /* ===== Global ===== */
 body {
   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
   background-color: #fff;
   color: #333;
   line-height: 1.6;
-  margin: 0px auto 0 auto; /* 60px top, auto left/right, 0 bottom */
-  text-align: center;
+  margin: 60px 0 0 0; /* 60px top, auto left/right, 0 bottom */
 }
 
 /* ===== Header ===== */

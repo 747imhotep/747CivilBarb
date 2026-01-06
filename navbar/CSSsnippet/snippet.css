@@ -1,45 +1,63 @@
-/* ===== GDPR Banner ===== */
+/* ===== GDPR Banner (consistent across all pages) ===== */
 #gdpr-banner {
+  display: none; /* hidden by default */
   position: fixed;
   bottom: 0;
   left: 0;
-  right: 0;
-  background-color: #641e1e;
+  width: 100%;
+  background-color: #730101; /* dark red, same as buttons/nav accent */
   color: #fff;
-  padding: 15px;
+  padding: 15px 20px;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
-  text-align: center;
-  z-index: 9999;
+  line-height: 1.5;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999; /* below navbar, above page content */
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 }
 
+#gdpr-banner p {
+  margin: 0 !important;
+  flex: 1 1 auto !important;
+  max-width: none !important;
+  color: #fff !important;
+  text-align: left !important;
+}
+
+
 #gdpr-banner a {
-  color: #ffdede;
+  color: #ffd4d4; /* light pink link to contrast with red bg */
   text-decoration: underline;
 }
 
 #gdpr-banner button {
   background-color: #fff;
-  color: #641e1e;
+  color: #730101;
   border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
+  padding: 8px 14px;
   cursor: pointer;
-  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 15px;
+  flex-shrink: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #gdpr-banner button:hover {
-  background-color: #f0f0f0;
+  background-color: #ffd4d4;
+  color: #730101;
 }
 
-/* Mobile adjustment */
+/* Mobile adjustments */
 @media (max-width: 600px) {
   #gdpr-banner {
     flex-direction: column;
-    font-size: 13px;
+    align-items: flex-start;
+  }
+  #gdpr-banner button {
+    margin: 10px 0 0 0;
   }
 }

@@ -19,6 +19,7 @@ my-worker/
 ├── Readme.txt        <- 
 │
 ├── server.js         <- Node.js server for Stripe
+├── .env
 │
 │
 └── succes/

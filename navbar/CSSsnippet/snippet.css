@@ -1,9 +1,15 @@
-/* ===== snippet.css — GDPR Banner Improved ===== */
+/* ==================================
+   snippet Page — Scoped Styles
+   Wrapper: snippet.css
+================================== */
+/* ===  — GDPR Banner Improved === */
 #gdpr-banner {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  max-height: 50vhd;
+  overflow: auto;
   background-color: #730101;
   color: #fff;
   padding: 15px 20px;

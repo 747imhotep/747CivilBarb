@@ -18,7 +18,7 @@
 │   ├─ library.html
 │   └─ csslibrary/library.css
 │
-├── my-worker/		<-- details of tree here below
+├── my-worker/		<-- details: please ask if needed
 │
 ├── navbar/           
 │   ├─ cssnavbar/navbar.css
@@ -28,7 +28,7 @@
 │
 ├── pictures/
 │   ├─ hero/
-│   └─ livrary-pic
+│   └─ livrary-pic/
 │
 │
 ├── premium/
@@ -43,6 +43,9 @@
 │   ├─ subscribe.html
 │   └─ csssubscribe/subscribe.css
 │
+├── terms/
+│   ├─ terms.html
+│   └─ cssterms/terms.css
 
 integrate it directly into your succes.html and make it look perfectly consistent with your existing style, including the back button colors and fonts.
 

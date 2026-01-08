@@ -497,3 +497,102 @@ I'd like to finish About, Contact and Term and privacy pages today
 Then we will come back later for premium page
 ------------------------------------
 ------------------------------------
+
+
+8 janv 2026
+
+I'm writing a website in html5, dedicated to articles in investigation style that can be monetized.
+I Need help continue to write it down with separate HTML, CSS, JS pages.
+I already have tools like Sender.net, Formspree, Cloudflare, tawk.to, Github, Hover.com
+Not to mention Stripe.
+
+All Draft pages are already pre-wrote:
+1. **Home**
+2. **Library / Articles**
+3. **Premium**
+4. **About**
+5. **Contact**
+6. **Privacy / Terms**
+7. **Sommaire**
+
+At this stage, I already wrote html pages:
+1. **Home**
+2. **Library / Articles**
+3. **Premium**
+4. **About**
+5. **Contact**
+6. **Privacy / Terms**
+as well as cancel.html success.html
+
+
+I need you to verify all pages because they are related to:
+├── navbar/           
+│   ├─ cssnavbar/navbar.css
+│   ├─ CSSsnippet/snippet.css
+
+I need you to check that all CSS pages are same style and
+no conflict whith 
+├── navbar/           
+│   ├─ cssnavbar/navbar.css
+│   ├─ CSSsnippet/snippet.css
+----------------------------------------------
+
+here is my tree
+747CivilBarb/
+│
+├── about/
+│
+├── ARTICLES/		<-- Few drafts texts
+├── biblio/		<-- Store articles
+│
+├── contact/
+│   ├─ contact.html
+│   └─ csscontact/contact.css
+│
+├── index.html
+│
+├── IndexCSS/
+│   └─ index.css
+│
+├── library/
+│   ├─ library.html
+│   └─ csslibrary/library.css
+│
+├── my-worker/		<-- details: please ask if needed
+│
+├── navbar/           
+│   ├─ cssnavbar/navbar.css
+│   ├─ CSSsnippet/snippet.css
+│   ├─ jsnavbar/navbar.js
+│   └─ JSsnippet/snippet.js
+│
+├── pictures/
+│   ├─ hero/
+│   └─ livrary-pic/
+│
+│
+├── premium/
+│   ├─ premium.html
+│   └─ csspremium/premium.css
+│
+├── privacy/
+│   ├─ privacy.html
+│   └─ cssprivacy/privacy.css
+│
+├── subscribe/
+│   ├─ subscribe.html
+│   └─ csssubscribe/subscribe.css
+│
+├── terms/
+│   ├─ terms.html
+│   └─ cssterms/terms.css
+
+Do you want me to share index HTML and CSS or maybe or maybe this 4 guys, first ? 
+
+├── navbar/           
+│   ├─ cssnavbar/navbar.css
+│   ├─ CSSsnippet/snippet.css
+│   ├─ jsnavbar/navbar.js
+│   └─ JSsnippet/snippet.js
+
+Remember to go step by step because this can be sometimes tricky.

@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="/navbar/CSSsnippet/snippet.css">
 </head>
 
-<body>
+<body class="has-fixed-nav">
+
 <!-- Navigation Bar -->
 <nav id="main-nav">
   <div class="nav-container">
     <!-- Logo / Site name -->
-    <a href="/home.html" class="logo">Civilisation ou Barbarie</a>
+    <a href="/index.html" class="logo"></a>
 
     <!-- Navigation links -->
     <ul class="nav-links">
@@ -43,10 +44,11 @@
         des analyses approfondies et des archives rares. L’accès Premium vous ouvre un 
         monde de connaissance et d’exploration méthodique.
       </p>
-      <p class="quote">
-        <em>Investir dans la connaissance, c’est multiplier sa puissance intellectuelle.</em>
-        <br>— Civilisation ou Barbarie
-      </p>
+      <blockquote>
+        <p><em>Investir dans la connaissance, c’est multiplier sa puissance 
+          intellectuelle.</em></p>
+        <footer>— Civilisation ou Barbarie</footer>
+      </blockquote>
     </div>
   </section>
 
@@ -59,10 +61,11 @@
     </p>
   </header>
 
-  <section class="premium-list" role="list">
+  <section class="premium-list" aria-labelledby="premium-articles-heading">
+
 
     <!-- Using the same articles from Library -->
-    <article class="premium-item" role="listitem">
+    <article class="premium-item">
       <div class="premium-badge">Premium</div>
         <h3 class="premium-title">
         <a href="/articles/exemple-article.html">Se synchroniser à Hapi</a>
@@ -79,12 +82,14 @@
       <p class="premium-meta">
         PDF — 2 pages — Accès Premium
       </p>
-      <button class="subscribe-button" onclick="window.location.href='/premium/subscribe.html'">
+      <button type="button"
+              class="subscribe-button" 
+              onclick="window.location.href='/subscribe/subscribe.html'">
         Accéder
       </button>
     </article>
 
-    <article class="premium-item" role="listitem">
+    <article class="premium-item">
         <div class="premium-badge">Premium</div>
       <h3 class="premium-title">
         <a href="/articles/exemple-article.html">Richesse et Sorcellerie</a>
@@ -102,7 +107,9 @@
       <p class="premium-meta">
         PDF — 12 pages — Accès Premium
       </p>
-      <button class="subscribe-button" onclick="window.location.href='/premium/subscribe.html'">
+      <button type="button"
+              class="subscribe-button" 
+              onclick="window.location.href='/subscribe/subscribe.html'">
         Accéder
       </button>
     </article>

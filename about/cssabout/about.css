@@ -8,7 +8,6 @@
   background-color: #fff;
   color: #333;
   line-height: 1.6;
-  text-align: center;
 }
 
 /* ===== Header ===== */
@@ -16,6 +15,7 @@
   font-size: 48px;
   color: #641e1e;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 /* ===== Sections ===== */
@@ -28,13 +28,14 @@
 .about-page .about-section h2 {
   font-size: 28px;
   color: #730101;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
 }
 
 .about-page .about-section p {
   font-size: 17px;
   color: #444;
-  margin-bottom: 15px;
+  margin-top: 2px;
+  margin-bottom: 25px;
 }
 
 .about-page .about-section ul {
@@ -44,4 +45,19 @@
 
 .about-page .about-section ul li {
   margin-bottom: 8px;
+}
+
+/* ===== Mobile optimization ===== */
+@media (max-width: 600px) {
+  .about-page .about-section {
+    padding: 0 15px;
+  }
+}
+
+#gdpr-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }

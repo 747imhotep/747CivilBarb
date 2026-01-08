@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(../pictures/hero/hero_home.jpg);
+  background-image: url(../pictures/hero/hero_home02.jpg);
   background-size: cover;
   background-position: center;
   min-height: 70vh;
@@ -115,6 +115,18 @@
 @media (max-width: 768px) {
   .page-content #hero-image h1 {
     font-size: 40px;
+  }
+
+  @media (max-whidth: 480px) {
+    .page-content#hero-image > * {
+      padding: 20px;
+    }
+  }
+  @media (max-width: 600px) {
+    .page-content .cta {
+      display: block;
+      margin: 10px 0;
+    }
   }
 
   .page-content #hero-image .manifesto,

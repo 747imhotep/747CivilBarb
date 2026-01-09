@@ -2,4 +2,5 @@
 node_modules/
 
 # Environment files with secrets
-.env
+my-worker/.env
+

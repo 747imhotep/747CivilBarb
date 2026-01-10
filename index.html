@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Civilisation ou Barbarie</title>
-  <link rel="stylesheet" href="IndexCSS/index.css">
+  <link rel="stylesheet" href="/shared/base.css">
   <link rel="stylesheet" href="/navbar/cssnavbar/navbar.css">
-  <link rel="stylesheet" href="navbar/CSSsnippet/snippet.css">
+  <link rel="stylesheet" href="/navbar/CSSsnippet/snippet.css">
+  <link rel="stylesheet" href="IndexCSS/index.css">
+  <link rel="stylesheet" href="/shared/cssshared/footer.css">
 </head>
 
 <body class="has-fixed-nav">
@@ -13,10 +15,7 @@
 <!-- Navigation Bar -->
 <nav id="main-nav">
   <div class="nav-container">
-    <!-- Logo / Site name -->
     <a href="/index.html" class="logo"></a>
-
-    <!-- Navigation links -->
     <ul class="nav-links">
       <li><a href="/index.html">Accueil</a></li>
       <li><a href="/library/library.html">Bibliothèque</a></li>
@@ -24,20 +23,13 @@
       <li><a href="/about/about.html">À propos</a></li>
       <li><a href="/contact/contact.html">Contact</a></li>
     </ul>
-
-    <!-- Hamburger icon for mobile -->
-    <button class="nav-toggle" aria-label="Menu">
-      ☰
-    </button>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
   </div>
 </nav>
 
-
-
-<div class="page-content">
-  <main>
-
-  <section id="hero-image">
+<!-- Hero Section: FULL WIDTH, outside .page-content -->
+<section id="hero-image">
+  <div class="hero-inner">
     <h1>Civilisation ou Barbarie</h1>
     <p class="manifesto">
       Nos enquêtes s’orientent vers l’exploration de zones peu éclairées, l’examen attentif 
@@ -49,8 +41,11 @@
       <em>En paléontologie, l’absence de preuve ne constitue pas la preuve de l’absence.</em>
       <br>— Principe méthodologique
     </p>
-  </section>
+  </div>
+</section>
 
+<!-- Main Content -->
+<main class="page-content">
   <section id="why-pdf">
     <h2>Pourquoi le format PDF ?</h2>
     <p>
@@ -79,7 +74,6 @@
     </nav>
   </section>
 </main>
-</div>
 
 <!-- GDPR Consent Banner -->
 <div id="gdpr-banner">
@@ -91,18 +85,16 @@
   <button id="gdpr-accept">J'accepte</button>
 </div>
 
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 Civilisation ou Barbarie. Tous droits réservés.</p>
+  <p class="footer-links">
+    <a href="/privacy/privacy.html">Politique de confidentialité</a> | 
+    <a href="/terms/terms.html">CGU</a>
+  </p>
+</footer>
 
-        <!-- Footer -->
-        <footer>
-          <p>
-            &copy; 2026 Civilisation ou Barbarie. Tous droits réservés.
-          </p>
-          <p class="footer-links">
-            <a href="/privacy/privacy.html">Politique de confidentialité</a> | 
-            <a href="/terms/terms.html">CGU</a>
-          </p>
-        </footer>
-        <script src="/navbar/jsnavbar/navbar.js"></script>
-        <script src="navbar/JSsnippet/snippet.js"></script>
-    </body>
+<script src="/navbar/jsnavbar/navbar.js"></script>
+<script src="/navbar/JSsnippet/snippet.js"></script>
+</body>
 </html>

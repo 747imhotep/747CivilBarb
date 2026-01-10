@@ -1,47 +1,42 @@
 /* ==================================
    Civilisation ou Barbarie
    IndexCSS/index.css
-   Scoped to .page-content ONLY
+   Scoped to .page-content ONLY (except hero)
 ================================== */
 
-/* ===== Page Container ===== */
-.page-content {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: left;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* ===== Hero Section ===== */
-.page-content #hero-image {
+/* ===== Hero Section (FULL WIDTH) ===== */
+#hero-image {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   background-image: url(../pictures/hero/hero_home02.jpg);
   background-size: cover;
   background-position: center;
+  width: 100vw;           /* full width */
   min-height: 70vh;
+  text-align: center;
   margin-bottom: 80px;
+  overflow: hidden;
 }
 
-.page-content #hero-image::before {
+#hero-image::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
+  z-index: 1; /* overlay behind text */
 }
 
-.page-content #hero-image > * {
+#hero-image .hero-inner {
   position: relative;
+  z-index: 2;  /* text above overlay */
   max-width: 900px;
   padding: 40px;
 }
 
-.page-content #hero-image h1 {
-  max-width: 1000px;
+#hero-image h1 {
   color: #dfdfdf;
   font-size: 61px;
   font-weight: 500;
@@ -49,7 +44,7 @@
   letter-spacing: 0.03em;
 }
 
-.page-content #hero-image .manifesto {
+#hero-image .manifesto {
   font-weight: 300;
   font-size: 20px;
   color: #e0e0e0;
@@ -57,8 +52,21 @@
   margin: 20px auto 30px;
 }
 
-.page-content #hero-image .quote {
+#hero-image .quote {
+  font-style: italic;
+  color: #e0e0e0;
   max-width: 800px;
+}
+
+/* ===== Page Content ===== */
+.page-content {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 /* ===== Text Elements ===== */
@@ -113,29 +121,28 @@
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .page-content #hero-image h1 {
+  #hero-image h1 {
     font-size: 40px;
   }
 
-  @media (max-whidth: 480px) {
-    .page-content#hero-image > * {
-      padding: 20px;
-    }
-  }
-  @media (max-width: 600px) {
-    .page-content .cta {
-      display: block;
-      margin: 10px 0;
-    }
+  #hero-image .hero-inner {
+    padding: 20px;
   }
 
-  .page-content #hero-image .manifesto,
-  .page-content #hero-image .quote {
+  #hero-image .manifesto,
+  #hero-image .quote {
     font-size: 16px;
     padding: 20px;
   }
 
   .page-content .cta {
+    display: block;
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero-image h1 {
+    font-size: 32px;
   }
 }

@@ -3,6 +3,13 @@
    Wrapper: .contact-page
 ================================== */
 
+/* ❌ In page CSS, rmove global styles like:
+body { ... }
+html { ... }
+a { ... }
+footer { ... }  /* unless explicitly scoped */
+
+/* ===== Page Container ===== */
 .contact-page {
   font-family: 'Times New Roman', Times, serif;
   background-color: #fff;

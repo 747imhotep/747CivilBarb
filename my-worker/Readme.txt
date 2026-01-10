@@ -5,9 +5,13 @@ my-worker/
 │   ├─ csscancel/cancel.css
 │   └─ cancel.html
 │
-├── csslibrary/       <- CSS for Library page
-├── csspremium/       <- CSS for Premium page
-├── node_modules/     <- 
+├── csslibrary/       <- CSS for Library page 📌 empty for the moment
+├── csspremium/       <- CSS for Premium page 📌 not there for the moment
+├── node_modules/     <- 📌 not there for the moment
+│
+├── csspremium        <- 
+│
+├── node_modules      <- 
 │
 ├── package.json      <- 
 ├── package-lock.json <- 
@@ -22,12 +26,16 @@ my-worker/
 ├── server.js         <- Node.js server for Stripe
 ├── .env
 │
+├── server/         <- Node.js server for Stripe
+│   └─ backupserver.txt
 │
 ├── succes/
 │     ├─ csssuccess/csssuccess.css
 │     └─ csssuccess.html
 │
 ├── succes.js         
+│
+│
 └── test-env.js
 
 

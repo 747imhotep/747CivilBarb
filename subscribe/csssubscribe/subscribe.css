@@ -1,42 +1,29 @@
-/* =====SUBSCRIBE Global ===== */
-body {
+/* ==================================
+   Civilisation ou Barbarie
+   csssubscribe/subscribe.css
+   s'abonner
+    Scoped to .subscribe-page ONLY
+================================== */
+
+
+/* ❌ In page CSS, rmove global styles like:
+body { ... }
+html { ... }
+a { ... }
+footer { ... }  /* unless explicitly scoped */
+
+
+/* ===== Global Styles ===== */
+.subscribe-page {
   font-family: 'Times New Roman', Times, serif;
   color: #333;
   line-height: 1.6;
-  margin: 60px auto 0 auto;
-  background-color: #fff;
-}
-
-h1 {
-  max-width: 1000px;
-  text-align: center;
-  color: #2b0101;
-  font-size: 61px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-h2 {
-  max-width: 1000px;
-  text-align: center;
-  font-size: 48px;
-  color: #641e1e;
-  margin-bottom: 15px;
-  text-box: var(#6d1313);
-}
-
-p {
-  max-width: 900px;
-  font-weight: 300;
-  font-size: 20px;
-  color: #050000;
-  margin: 20px auto 30px;
 }
 
 
 
 /* ===== Hero Section ===== */
-#hero-subscribe {
+.subscribe-page #hero-subscribe {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -50,27 +37,27 @@ p {
   text-align: center;
 }
 
-#hero-subscribe::before {
+.subscribe-page #hero-subscribe::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55); /* dark overlay */
+  background: rgba(0, 0, 0, 0.55);
 }
 
-#hero-subscribe > * {
+.subscribe-page #hero-subscribe > * {
   position: relative;
   max-width: 900px;
   padding: 20px 40px;
 }
 
-#hero-subscribe h1 {
-  color: #ffd700; /* gold for exclusivity */
+.subscribe-page #hero-subscribe h1 {
+  color: #ffd700;
   font-size: 56px;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
-#hero-subscribe .manifesto {
+.subscribe-page #hero-subscribe .manifesto {
   font-size: 18px;
   color: #eee;
   max-width: 720px;
@@ -81,8 +68,8 @@ p {
   text-align: center;
 }
 
-/* ===== Subscribe Section ===== */
-.subscribe-section {
+/* Subscribe Section */
+.subscribe-page .subscribe-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +83,7 @@ p {
   text-align: center;
 }
 
-.subscribe-button {
+.subscribe-page .subscribe-button {
   align-items: center;
   background-color: #d30b83;
   color: #fff;
@@ -108,31 +95,30 @@ p {
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  margin-top: 20px;         /* space from text */
+  margin-top: 20px;
 }
 
-.subscribe-button:hover {
+.subscribe-page .subscribe-button:hover {
   background-color: #a00862;
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
 
-/* ===== Premium Articles Section ===== */
-.premium-articles {
+/* Articles */
+.subscribe-page .premium-articles {
   max-width: 900px;
   margin: 60px auto 80px auto;
   text-align: left;
 }
 
-.premium-articles h2 {
+.subscribe-page .premium-articles h2 {
   font-size: 42px;
   text-align: center;
   color: #641e1e;
   margin-bottom: 40px;
 }
 
-/* Article Item */
-.article-item {
+.subscribe-page .article-item {
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 25px 30px;
@@ -142,40 +128,24 @@ p {
   box-shadow: 0 6px 15px rgba(0,0,0,0.05);
 }
 
-.article-title {
-  font-size: 24px;
-  margin-bottom: 5px;
-}
+.subscribe-page .article-title { font-size: 24px; margin-bottom: 5px; }
 
-.article-title a {
+.subscribe-page .article-title a {
   color: #730101;
   text-decoration: none;
 }
 
-.article-title a:hover {
+.subscribe-page .article-title a:hover {
   text-decoration: underline;
 }
 
-.article-subtitle {
-  font-size: 18px;
-  color: #555;
-  margin-bottom: 12px;
-}
+.subscribe-page .article-subtitle { font-size: 18px; color: #555; margin-bottom: 12px; }
 
-.article-abstract {
-  font-size: 16px;
-  color: #444;
-  margin-bottom: 10px;
-}
+.subscribe-page .article-abstract { font-size: 16px; color: #444; margin-bottom: 10px; }
 
-.article-meta {
-  font-size: 14px;
-  color: #999;
-  font-style: italic;
-}
+.subscribe-page .article-meta { font-size: 14px; color: #999; font-style: italic; }
 
-/* Premium Badge */
-.premium-badge {
+.subscribe-page .premium-badge {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -188,6 +158,5 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
-
+/* ===== Responsive ===== */
 

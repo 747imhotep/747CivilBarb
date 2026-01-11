@@ -67,9 +67,9 @@ footer { ... }  /* unless explicitly scoped */
 }
 
 .premium-page #hero-premium .quote {
+  color: #eeccf0;
   font-size: 17px;
   font-style: italic;
-  color: #eeccf0;
   max-width: 800px;
   margin-top: 20px;
   background: rgba(50, 0, 50, 0.6);

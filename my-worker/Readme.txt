@@ -1,3 +1,5 @@
+ Stripe + Node architecture
+
 my-worker/
 │
 │
@@ -6,12 +8,14 @@ my-worker/
 │   └─ cancel.html
 │
 ├── csslibrary/       <- CSS for Library page 📌 empty for the moment
+│
 ├── csspremium/       <- CSS for Premium page 📌 not there for the moment
+│
 ├── node_modules/     <- 📌 not there for the moment
 │
-├── csspremium        <- 
+├── csspremium/        <- empty foder
 │
-├── node_modules      <- 
+├── node_modules/      <- a lot of folders inside 
 │
 ├── package.json      <- 
 ├── package-lock.json <- 
@@ -19,21 +23,33 @@ my-worker/
 ├── pictures/	      <- hero images
 │    └─ hero/
 │
-├── public/           <- your HTML files (home.html, library.html, premium.html, subscribe.html, etc.)
+├── public/
+│	└── index/
+│		└──  index.html
+│
+│	└── library/
+│		└──  index.html
+│
+│	└── premium/
+│		└──  index.html
+│
+│	└── subscribe/
+│		└──  index.html
+│
 │
 ├── Readme.txt        <- 
 │
-├── server.js         <- Node.js server for Stripe
-├── .env
+├── server.js         <- Node.js server for Stripe (Stripe backend)
+├── .env              <- secrets
 │
-├── server/         <- Node.js server for Stripe
+├── server/         <- name as been change to: sserver-backup
 │   └─ backupserver.txt
 │
 ├── succes/
 │     ├─ csssuccess/csssuccess.css
 │     └─ csssuccess.html
 │
-├── succes.js         
+├── success-backup/         
 │
 │
 └── test-env.js

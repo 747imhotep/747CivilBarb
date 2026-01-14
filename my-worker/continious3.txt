@@ -1,0 +1,96 @@
+Awesome! 🎉
+
+That means:
+
+1. Your `.env` loaded correctly ✅
+2. Node can read your `entitlements.json` ✅
+3. Your `test-env.js` script runs without errors ✅
+
+The next step is to **simulate granting an entitlement** to a test Stripe customer so we know the file-writing works.
+
+You can do that by adding a quick call at the bottom of your `test-env.js`:
+
+```js
+// Test granting entitlement
+grantEntitlement("cus_TEST123", "test@example.com");
+console.log("Entitlement granted for cus_TEST123");
+```
+
+Then run:
+
+```bash
+node test-env.js
+```
+
+You should see `Entitlement granted for cus_TEST123`, and your `data/entitlements.json` will now contain:
+
+```json
+{
+  "cus_TEST123": {
+    "email": "test@example.com",
+    "status": "active",
+    "plan": "premium",
+    "since": "2026-01-14"
+  }
+}
+```
+
+This is exactly what we need before connecting **Stripe webhooks**.
+
+Do you want me to guide you on **Step 7.2: Stripe webhook + entitlement storage** next?
+
+
+
+
+Perfect! ✅ Taking a pause is a smart move — everything we’ve done so far is solid, so you can pick up exactly where you left off. Here’s a **clear summary of the next steps** for tomorrow, without diving too deep yet:
+
+---
+
+## **Next Steps — STEP 7.2 and beyond**
+
+### 1️⃣ **Set up Stripe webhook**
+
+* Create a `/webhook` endpoint in your Node server (or `server.js`).
+* Use `bodyParser.raw()` because Stripe needs the raw request body.
+* Verify events using `STRIPE_WEBHOOK_SECRET`.
+
+### 2️⃣ **Store entitlement**
+
+* When a `checkout.session.completed` event is received:
+
+  * Extract `customer_id` (and optionally email)
+  * Call `grantEntitlement(customer_id, email)` to add the user to `entitlements.json`.
+* This is **Option 2** — simple JSON-based entitlement.
+
+### 3️⃣ **Protect premium content**
+
+* Update your `/premium` page or download links:
+
+  * Request `/api/entitlement?customer_id=xxx` (or similar)
+  * Check `entitlements.json` for active status
+  * Only allow download or view if entitled
+
+### 4️⃣ **Success page integration**
+
+* After Stripe checkout:
+
+  * Success page calls backend endpoint
+  * JS unlocks premium links for entitled users
+  * No login system required
+
+### 5️⃣ **Optional future upgrades**
+
+* Switch JSON storage → SQLite/Postgres
+* Add tiers or time-limited subscriptions
+* Add login system if you want per-user online reading
+
+---
+
+💡 **Tip for tomorrow:** Keep `.env` outside the repo root, and make sure your `ENTITLEMENTS_PATH` points to the correct folder (`data/entitlements.json`).
+
+---
+
+If you want, tomorrow we can **write the webhook + entitlement logic first** and test it locally with Stripe CLI before touching the front-end. That’s the safest way to go step by step.
+
+Do you want me to **prep the exact Node webhook code** for you for tomorrow?
+

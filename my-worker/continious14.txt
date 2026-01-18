@@ -133,4 +133,48 @@ Routes respond as expected ✔️
 
 This gives us a rock-solid backend foundation.
 
-🟢 STEP 7.2.C — COMPLETED
+👉 STEP 7.2.B — Stripe webhook signature verification
+
+This step will:
+
+Only this:
+
+1. Add Stripe SDK
+2. Add raw body middleware only for /webhook
+3. Verify Stripe signature
+4. console.log(event.type)
+5. Return 200 OK
+
+🟢 STEP 7.2.B — Stripe signature verification COMPLETED
+
+Your current server.js correctly does all of the following:
+
+✔️ Environment & setup
+
+dotenv.config() runs first
+
+ES Modules syntax is consistent
+
+Stripe is instantiated correctly
+
+Secret key presence is verified (console.log)
+
+✔️ Webhook correctness (this is the critical part)
+
+express.raw({ type: "application/json" }) is used only on /webhook ✅
+
+No global express.json() middleware to interfere ✅
+
+Signature extracted properly:
+const sig = req.headers["stripe-signature"];
+Signature verification is correct:
+stripe.webhooks.constructEvent(req.body, sig, process.env.STRIPE_WEBHOOK_SECRET);
+Errors handled safely with 400 ✅
+
+Valid events acknowledged with 200 (res.json({ received: true })) ✅
+
+
+
+
+🟢 STEP 7.2.C — 
+not completed

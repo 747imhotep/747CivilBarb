@@ -11,13 +11,15 @@ my-worker/
 │
 ├── csspremium/       <- CSS for Premium page 📌 not there for the moment
 │
-├── node_modules/     <- 📌 not there for the moment
+├── data/     	      <- 
+│   │
+│   └─ entitlements.json	 
 │
-├── csspremium/        <- empty foder
+├── node_modules/     <- many folders
 │
-├── node_modules/      <- a lot of folders inside 
 │
-├── package.json      <- 
+│
+├── package.json      <- confirm the "type": "module" status. We are officially in ES Modules mode.
 ├── package-lock.json <- 
 │
 ├── pictures/	      <- hero images
@@ -25,34 +27,32 @@ my-worker/
 │
 ├── public/
 │	└── index/
-│		└──  index.html
-│
+│	│	└──  index.html
+│	│
 │	└── library/
-│		└──  index.html
-│
+│	│	└──  index.html
+│	│
 │	└── premium/
-│		└──  index.html
-│
+│	│	└──  index.html
+│	│
 │	└── subscribe/
 │		└──  index.html
 │
 │
 ├── Readme.txt        <- 
 │
-├──  
-├── 
 │
-├──  
+├──  server.js
 │    
 │
 ├── succes/
-│     ├─ csssuccess/csssuccess.css
-│     └─ csssuccess.html
+│     ├─ csssucces/succes.css
+│     └─ succes.html
 │
 ├── success-backup/         
 │
 │
-└── test-env.js
+└── test-env.js       <- This will later evolve into : server.js
 
 
 node server.js

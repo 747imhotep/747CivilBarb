@@ -109,7 +109,7 @@ app.post(
 
         // Stripe may provide email in customer_details or customer_email
         const email = session.customer_details?.email || session.customer_email;
-        const customerId = session.customer;
+        const customerId =   session.customer || email; // ⬅️ test-safe fallback (after testing, remove ||etc)
 
         if (!customerId || !email) {
           console.warn("⚠️ Missing customer ID or email, skipping entitlement");

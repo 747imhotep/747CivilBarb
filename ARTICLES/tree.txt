@@ -1,4 +1,4 @@
-here is my tree
+here is my Root tree
 747CivilBarb/
 │
 ├── about/
@@ -9,6 +9,11 @@ here is my tree
 ├── contact/
 │   ├─ contact.html
 │   └─ csscontact/contact.css
+│
+├── .env.example
+│
+├── .gitignore
+│
 │
 ├── index.html
 │

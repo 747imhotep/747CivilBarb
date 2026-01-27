@@ -334,7 +334,12 @@ Flow:
 ```
 Visitor → Premium page
    |
-   | clicks Subscribe
+   | clicks Accéder
+   ↓
+Visitor → subscribe page   
+   |
+   | clicks S’abonner
+   |
    ↓
 Stripe Checkout
    ↓

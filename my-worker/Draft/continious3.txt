@@ -103,5 +103,5 @@ Perfect! ✅ Taking a pause is a smart move — everything we’ve done so far i
 
 If you want, tomorrow we can **write the webhook + entitlement logic first** and test it locally with Stripe CLI before touching the front-end. That’s the safest way to go step by step.
 
-Do you want me to **prep the exact Node webhook code** for you for tomorrow?
+
 
